@@ -35,7 +35,6 @@ a {
     color: inherit
 }
 
-
 main {
     width: 350px;
     margin: 0 auto;
@@ -106,7 +105,7 @@ section#summary > h2 {
     gap: 18px;
 }
 
-#summary > li > ui {
+#summary > li > ul {
     display: flex;
     justify-content: space-around;
     
@@ -116,7 +115,7 @@ section#summary > h2 {
     font-weight: bolder;
 }
 
-ui > div:nth-child(1) {
+ul > div:nth-child(1) {
     display: flex;
     gap: 7px;  
 }
@@ -165,6 +164,6 @@ footer {
     align-items: center;
 }
 
-footer  a {
+footer a {
     text-decoration-line: underline;
 }
